@@ -1,0 +1,6 @@
+{
+  "name": "Task Manager",
+  "description": "Offline-first task management app with robust synchronization capabilities",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

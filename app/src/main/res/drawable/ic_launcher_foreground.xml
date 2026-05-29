@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Stylized Shadow Underlay for Depth -->
+    <path 
+        android:pathData="M34,42 L52,60 L74,34 Q76,32 78,34 Q80,36 78,38 L54,66 Q52,68 50,66 L30,46 Q28,44 30,42 Q32,40 34,42 Z"
+        android:fillColor="#22000000" />
+
+    <!-- Synchronous Loop Part 1 (Top-Right Arrow) -->
+    <path
+        android:pathData="M 68,26 A 30,30 0 0,1 84,54 L 89,54 A 35,35 0 0,0 71,21 Z"
+        android:fillColor="#38BDF8" />
+    <path
+        android:pathData="M 66,28 L 76,26 L 70,16 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Synchronous Loop Part 2 (Bottom-Left Arrow) -->
+    <path
+        android:pathData="M 40,82 A 30,30 0 0,1 24,54 L 19,54 A 35,35 0 0,0 37,87 Z"
+        android:fillColor="#0D9488" />
+    <path
+        android:pathData="M 42,80 L 32,82 L 38,92 Z"
+        android:fillColor="#0D9488" />
+
+    <!-- Centered Bright Teal Task Checkmark Core -->
+    <path
+        android:pathData="M32,42 L50,60 L72,34 Q74,32 76,34 Q78,36 76,38 L52,66 Q50,68 48,66 L28,46 Q26,44 28,42 Q30,40 32,42 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="34"
+                android:endX="76"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#00ECC6" />
+                <item android:offset="1.0" android:color="#0EA5E9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Node Dot -->
+    <group 
+        android:pivotX="54"
+        android:pivotY="54">
+        <path
+            android:pathData="M 52,62 A 2,2 0 1,1 56,62 A 2,2 0 1,1 52,62 Z"
+            android:fillColor="#FFFFFF" />
+    </group>
+</vector>
